@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'against';
+	src: local('against'), url(fonts\against.otf) format('opentype');
+}
+
+:root {
+	font-family: against, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: black;
+	background-color: #f6e3c5;
+	scroll-behavior: smooth;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+a {
+	font-weight: 500;
+	color: black;
+	text-decoration: inherit;
+}
+a:hover {
+	text-decoration-line: overline;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 5em;
+	line-height: 1.1;
+}
