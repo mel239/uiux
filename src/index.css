@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: 'against';
-	src: url(fonts\against.otf) format('opentype');
+	font-family: 'Against';
+	src: local('against regular'), url('./fonts/against.ttf') format('truetype');
 }
 
 :root {
-	font-family: against, sans-serif;
+	font-family: Against, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 
